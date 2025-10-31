@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Output files
+timeline_output.txt
+battula_output.txt
+gupta_output.txt
+*_output.txt
+
+# IDE
+.vscod
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Data files (examples - adjust as needed)
+*.csv
+*.wav
+!test_data/
+
