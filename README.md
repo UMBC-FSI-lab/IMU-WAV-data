@@ -5,9 +5,19 @@ A standalone application for analyzing IMU and WAV sensor data to extract precis
 ## Features
 
 - **IMU Data Analysis**: Detects movement patterns including:
-  - When the phone starts moving towards the skin
-  - When the phone is stable at a constant force
-  - When the phone starts moving away from the skin
+   - When the phone starts moving towards the skin
+
+   - When the phone is starting to touch the skin
+    
+   - When the phone has fully touched the skin
+    
+   - When the phone is stable at a constant force
+    
+    - When the phone is starting to move away from the skin
+    
+   - When the phone has just been touched on the skin
+    
+  - When the phone stops after moving away from the skin
 
 - **Audio Chirp Detection**: Analyzes WAV files to detect chirps with:
   - Frequency range: 16-24 kHz
